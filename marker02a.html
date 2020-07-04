@@ -6,11 +6,12 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
         <a-marker-camera type='pattern' url='https://mcsunvtc.github.io/ar01/markers/hiro-marker.patt'>
+        <a-marker-camera type='pattern' url='path/to/pattern-marker.patt'></a-marker-camera>
             <a-entity
             position="-1 -1 0"
             scale="1 1 1"
             rotation="-90 -90 0"
-            gltf-model="https://mcsunvtc.github.io/ar01/models/RiggedFigure.gltf"
+            gltf-model="models/RiggedFigure.gltf"
             ></a-entity>
         </a-marker-camera>
         <a-entity camera></a-entity>
